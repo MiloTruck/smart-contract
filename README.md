@@ -9,12 +9,12 @@ _If deemed required:_
 - [ ] Relevant CTFs 
 
 ## CTFs
-- [CryptoZombies](https://cryptozombies.io/en/course/)
-- [Capture the Ether](https://capturetheether.com/)
-- [Ethernaut](https://ethernaut.openzeppelin.com/)
-- [Damn Vulnerable DeFi](https://www.damnvulnerabledefi.xyz/)
-- [Paradigm CTF](https://github.com/paradigm-operations/paradigm-ctf-2021)
+- [ ] [CryptoZombies](https://cryptozombies.io/en/course/)
+- [ ] [Capture the Ether](https://capturetheether.com/)
+- [ ] [Ethernaut](https://ethernaut.openzeppelin.com/)
+- [ ] [Damn Vulnerable DeFi](https://www.damnvulnerabledefi.xyz/)
+- [ ] [Paradigm CTF](https://github.com/paradigm-operations/paradigm-ctf-2021)
 
 ## Progress Updates
-* April
-  * 24th: Completed goal setting, organizing this repository   
+- April
+  - 24th: Completed goal setting, organizing this repository   
