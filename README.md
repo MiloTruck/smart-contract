@@ -6,8 +6,14 @@ _By 5th September 2022_
 - [ ] Review of all existing [Code4rena reports](https://code4rena.com/reports)
 
 _If deemed required:_
-- [ ] ctfs
+- [ ] Relevant CTFs 
 
+## CTFs
+- [CryptoZombies](https://cryptozombies.io/en/course/)
+- [Capture the Ether](https://capturetheether.com/)
+- [Ethernaut](https://ethernaut.openzeppelin.com/)
+- [Damn Vulnerable DeFi](https://www.damnvulnerabledefi.xyz/)
+- [Paradigm CTF](https://github.com/paradigm-operations/paradigm-ctf-2021)
 
 ## Progress Updates
 * April
