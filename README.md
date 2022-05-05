@@ -19,4 +19,4 @@ _If deemed required:_
 - April
   - 24th: Completed goal setting, organizing this repository
 - May
-  - 5th: First report submitted to Forgotten Runes Warrior Guild contest, found gas optimizations
+  - 5th: First report submitted to [Forgotten Runes Warrior Guild Contest](https://code4rena.com/contests/2022-05-forgotten-runes-warrior-guild-contest), found gas optimizations
