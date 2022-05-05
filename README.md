@@ -17,4 +17,6 @@ _If deemed required:_
 
 ## Progress Updates
 - April
-  - 24th: Completed goal setting, organizing this repository   
+  - 24th: Completed goal setting, organizing this repository
+- May
+  - 5th: First report submitted to Forgotten Runes Warrior Guild contest, found gas optimizations
