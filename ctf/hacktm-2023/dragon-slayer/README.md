@@ -72,7 +72,7 @@ function mint(address to, uint256 tokenId) public onlyOwner {
 
 This means that if the receiving address is a smart contract, it has to implement an `onERC721Received()` function, which is expected to return `this.onERC721Received.selector`. 
 
-In [OpenZeppelin's ERC-721 implementation](dragon_slayer_contracts/openzeppelin-contracts/token/ERC721/ERC721.sol), whenever a token is minted to a contract, `_safeMint()` calls `_checkOnERC721Received()`, which invokes the `onERC721Received()` function of the receiving contract. As such, when `mint()` is called in the `BankNote` contract, execution flow is passed to the receiving contract temporarily before the bank note is minted.
+In [OpenZeppelin's ERC-721 implementation](https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/token/ERC721/ERC721.sol), whenever a token is minted to a contract, `_safeMint()` calls `_checkOnERC721Received()`, which invokes the `onERC721Received()` function of the receiving contract. As such, when `mint()` is called in the `BankNote` contract, execution flow is passed to the receiving contract temporarily before the bank note is minted.
 
 With this knowledge, we can spot a vulnerability in the `split()` function in `Bank.sol`:
 ```solidity
