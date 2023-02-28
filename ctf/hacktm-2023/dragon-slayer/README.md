@@ -1,8 +1,12 @@
 # Dragon Slayer
 
+> Prove yourself a true champion. Kill the mighty dragon and earn the right to call yourself a dragon slayer.
+>
+> `nc 34.141.16.87 30100`
+
 The contracts for this challenge can be found in [`dragon_slayer_contracts.zip`](dragon_slayer_contracts.zip).
 
-## Challenge Overview
+## Overview
 
 We are provided with the following contracts:
 * `Setup.sol`: The contract used to setup the challenge and check if the challenge is solved.
@@ -140,4 +144,5 @@ bank.split(1, amounts);
    5. Knight sells items `3` and `4` to gain back the `2_000_000 ether` gold coins. 
    6. Knight deposits the gold coins and transfers it to the attacker contract's bank note. 
 
+## Exploit code
 The exploit contract, which implements the steps above, can be found in [`Exploit.sol`](Exploit.sol).
