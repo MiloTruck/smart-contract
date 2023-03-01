@@ -3,6 +3,8 @@ This repository contains everything related to smart contracts.
 
 ## Notes
 
+[Smart Contract Audit Methodology](notes/audit-methodology.md)
+
 ### Cheatsheets
 
 * [Hardhat](/notes/hardhat.md)
