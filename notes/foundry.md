@@ -22,7 +22,7 @@ echo "@openzeppelin/=lib/openzeppelin-contracts/" > remappings.txt
 ## Testing
 Running tests with `console.log` output:
 ```sh
-forge test -vvv
+forge test -vv
 ```
 
 Running tests with traces:
