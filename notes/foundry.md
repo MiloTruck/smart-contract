@@ -10,14 +10,21 @@ forge init <project_name>
 
 To add a dependency, such as `@openzeppelin`:
 
-1. `forge install openzeppelin/openzeppelin-contracts` (this will add the repo to lib/openzepplin-contracts)
-2. Create a remappings file: `touch remappings.txt`
-3. Add this line to `remappings.txt`
+1. Install Openzeppelin as a dependency:
+```sh
+forge install openzeppelin/openzeppelin-contracts
 ```
-@openzeppelin/=lib/openzeppelin-contracts/
+1. Add `@openzeppelin/=lib/openzeppelin-contracts/` to `remappings.txt`
+```sh
+echo "@openzeppelin/=lib/openzeppelin-contracts/" > remappings.txt
 ```
 
 ## Testing
+Running tests with `console.log` output:
+```sh
+forge test -vvv
+```
+
 Running tests with traces:
 ```sh
 forge test -vvv
