@@ -125,16 +125,16 @@ vm.etch(address addr, bytes calldata code)
 #### Caller address
 
 ```solidity
-// Set the next call's msg.sender
+// Set msg.sender for the next call
 vm.prank(address msgSender)` 
 
-// Set msg.sender for all subsequent calls
-vm.startPrank(address msgSender)`
+// Set msg.sender for subsequent calls
+vm.startPrank(address msgSender)
 
 // Reset msg.sender for subsequent calls
 vm.stopPrank()
 
-// Change msg.sender for all subsequent calls
+// Change msg.sender for subsequent calls
 changePrank(address msgSender) 
 ```
 
