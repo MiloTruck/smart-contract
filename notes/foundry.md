@@ -1,36 +1,73 @@
-# Foundry
+# Foundry Cheatsheet
 
 ## Setup
-To create a new project:
+Create a new project:
 ```sh
 forge init <project_name>
 ```
 
-## Adding Dependencies
-
-To add a dependency, such as `@openzeppelin`:
-
-1. Install Openzeppelin as a dependency:
+Create a new project using a template:
 ```sh
+forge init --template <template> <project_name>
+
+# Example
+forge init --template https://github.com/zobront/paradigm-ctf paradigm_ctf
+```
+
+## Dependencies
+
+### Adding dependencies
+
+Install dependencies in an existing project:
+```sh
+forge install
+```
+
+To add a new dependency:
+```sh
+forge install <dependency>
+
+# Example
 forge install openzeppelin/openzeppelin-contracts
 ```
-1. Add `@openzeppelin/=lib/openzeppelin-contracts/` to `remappings.txt`
+
+### Remappings
+
+Forge can automatically deduce remappings:
+```sh
+forge remappings
+```
+
+To customize a remapping, simply add it to `remappings.txt`:
 ```sh
 echo "@openzeppelin/=lib/openzeppelin-contracts/" > remappings.txt
 ```
 
 ## Testing
-Running tests with `console.log` output:
+
+To run tests:
 ```sh
-forge test -vv
+forge test
 ```
 
-Running tests with traces:
+Verbosity
+- `-vv` shows `console.log` output.
+- `-vvv` shows traces. 
+
+### Fork testing
+
+To fork a network:
 ```sh
-forge test -vvv
+forge test --fork-url <rpc_url>
 ```
 
-Mainnet Forking:
+To identify contracts in a forked environment, pass your Etherscan API key using `--etherscan-api-key`:
 ```sh
-forge test --fork-url <ETH_RPC_URL>
+forge test --fork-url <rpc_url> --etherscan-api-key <etherscan_api_key>
 ```
+
+### Cheatcodes
+
+### Fuzzing
+
+### Invariant Testing
