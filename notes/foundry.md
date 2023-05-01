@@ -115,7 +115,7 @@ vm.roll(uint256 blockNumber)
 // Load a storage slot from an address
 vm.load(address account, bytes32 slot) 
 
-// Storage a value to an address' storage slot
+// Store a value to an address' storage slot
 vm.store(address account, bytes32 slot)
 
 // Set code at address
