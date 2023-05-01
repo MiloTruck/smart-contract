@@ -105,5 +105,6 @@ Finally, compile all findings into a report.
 
 * [Guardian Audit's Methodology](https://lab.guardianaudits.com/the-auditors-handbook/the-auditing-process)
 * [Joran Honig's Methodology](https://twitter.com/joranhonig/status/1539578735631949825)
+* [Zach Obront's Methodology](https://twitter.com/zachobront/status/1606132664422891520)
 * [Solcurity Standard](https://github.com/transmissions11/solcurity)
 * [Smart Contract Auditing Heuristics](https://github.com/OpenCoreCH/smart-contract-auditing-heuristics)
