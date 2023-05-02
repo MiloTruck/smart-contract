@@ -51,7 +51,7 @@ forge install openzeppelin/openzeppelin-contracts
 
 Forge can automatically deduce remappings:
 ```sh
-forge remappings
+forge remappings > remappings.txt
 ```
 
 To customize a remapping, simply add it to `remappings.txt`:
